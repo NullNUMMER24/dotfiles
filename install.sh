@@ -16,7 +16,7 @@ yay -S spicetify-themes-git
 ##########################################################################
 yay -S alacritty-git
 mkdir -p ~/.config/alacritty
-cp alacritty.yml ~/.config/alacritty/alacritty.yml
+cp ~/git/dotfiles/themes/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 yay -S nitch
 cp ~/git/dotfiles/.bashrc ~/
 ##########################################################################
