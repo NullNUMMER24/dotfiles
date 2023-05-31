@@ -12,6 +12,21 @@ sudo chmod a+wr /opt/spotify/Apps -R
 # Download themes from: https://github.com/spicetify/spicetify-themes
 yay -S spicetify-themes-git
 ##########################################################################
+# Better Discord
+##########################################################################
+# Download the code from git
+curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
+# Change the permissions
+chmod +x betterdiscordctl
+# Move the BD files to /usr/local//bin
+sudo mv betterdiscordctl /usr/local/bin
+# Install Discord
+yay -S Discord
+# Start Discord to generate the discordfiles
+discord
+# Install Better Discord
+betterdiscordctl Install
+##########################################################################
 # Terminal
 ##########################################################################
 yay -S alacritty-git
