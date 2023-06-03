@@ -2,6 +2,8 @@ yay -S neovim
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 yay -S obsidian
 yay -S onedriver
+
+yay -S picom-git
 ##########################################################################
 # Spicetify
 ##########################################################################
