@@ -1,8 +1,6 @@
 yay -S neovim 
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 yay -S obsidian
-
-yay -S picom-git
 ##########################################################################
 # Spicetify
 ##########################################################################
@@ -27,6 +25,26 @@ yay -S Discord
 discord
 # Install Better Discord
 betterdiscordctl Install
+##########################################################################
+# Download Wallpaper Repository
+##########################################################################
+git clone git@github.com:NullNUMMER24/wallpaper.git
+##########################################################################
+# i3 rice
+##########################################################################
+yay -S feh
+yay -S picom-git
+# Lockscreen
+sudo pacman -R i3lock
+yay -S i3lock-color
+# Fonts
+yay -S ttf-firecode
+yay -S ttf-firecode-nerd
+# bar
+yay -S i3blocks
+mkdir ~/.config/i3blocks
+
+
 ##########################################################################
 # Terminal
 ##########################################################################
