@@ -44,6 +44,10 @@ yay -S ttf-firecode-nerd
 yay -S i3blocks
 mkdir ~/.config/i3blocks
 
+##########################################################################
+# yubico
+##########################################################################
+yay -S yubico-authenticator-bin yubikey-manager yubikey-personalization-gui
 
 ##########################################################################
 # Terminal
@@ -52,13 +56,8 @@ yay -S alacritty-git
 mkdir -p ~/.config/alacritty
 cp ~/git/dotfiles/themes/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 yay -S nitch
-cp ~/git/dotfiles/.bashrc ~/
 ##########################################################################
 # Games
 ##########################################################################
 yay -S minecraft-launcher
 yay -S steam
-
-
-
-yay -S hyprland
